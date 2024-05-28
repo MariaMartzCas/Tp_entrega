@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAC-MOVIES</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -21,7 +20,7 @@
             <ul class="listaNav">
                 <li class="listaItem"><a class="linkNav" href="#tendencias">Tendencias</a></li>
                 <li class="listaItem"><a class="linkNav" href="registrarse.html">Registrarse</a></li>
-                <li class="listaItem"><a class="linkNav iniciarSesion" href="/iniciosesion.html">Iniciar Sesión</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="iniciosesion.html">Iniciar Sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -43,70 +42,15 @@
             <h3 class="tituloSection">Las tendencias de hoy</h3>
             <div class="peliculas" id="tendenciasContainer">
                 <!-- Aquí se cargarán las películas tendencia -->
-                <div class="imgTendencia" >
-                    <img src="alienoid.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="breathe.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="damsel.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="dune.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="fastx.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="godzilla.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="kunfu.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="life.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="madame.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="migration.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="noway.jpg" alt="">
-                </div>
-                <div class="imgTendencia">
-                    <img src="wonka.jpg" alt="">
-                </div>
             </div>
-            <button class="boton anterior">Anterior</button>
+            <button class="boton anterior">Anterior</button>  
             <button class="boton siguiente">Siguiente</button>
         </section>
         <hr>
         <section data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000" class="peliculasAclamadas">
             <h3 class="tituloSection">Las más aclamadas</h3>
             <div class="aclamadas" id="aclamadasContainer">
-                <!-- Aquí se cargarán las películas  -->
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;">
-                    <img src="malo,bueno.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;"">
-                    <img src="padrino.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;"">
-                    <img src="parasite.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;"">
-                    <img src="pulp.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;"">
-                    <img src="shaw.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3" style="margin-right: 10px;"">
-                    <img src="shindler.jpg" alt="" class="img-fluid">
-                </div>
-                
+                <!-- Aquí se cargarán las películas más aclamadas -->
             </div>
         </section>
     </main>
@@ -127,11 +71,9 @@
     <script>
         AOS.init();
     </script>
-    <script src="./js/fetch_peliculas.js"></script>
+    <script src="peliculas.js"></script>
 </body>
 </html>
-
-
 
 
 
